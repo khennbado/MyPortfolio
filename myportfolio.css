@@ -1,0 +1,125 @@
+/* #myheading {
+    background-image: url('background.jpg');
+    background-blend-mode: color-dodge;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-size: cover;
+    padding: 10%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+} */
+
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+    padding-top: 2px;
+}
+
+li a {
+    display: block;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(89, 76, 204);
+}
+
+.active {
+    background-color: black;
+}
+
+.card::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.gallery {
+    border: 1px solid #ccc;
+    float: left;
+    width: 31%;
+    margin: 1%;
+
+}
+div.gallery:hover {
+    border: 1px solid #888;
+}
+
+#footer {
+    padding: 30px;
+    background-color: lightblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 30px;
+    color: white;
+    background-color: brown;
+    border: none;
+    border-radius: 10px;
+}
+
+.copyright {
+    padding-top: 30px;
+
+}
+
+/* #skills {
+    text-align: center;
+    padding-top: 10px;
+} */
+
+#carousel-item {
+    width: 800px;
+    height: 400px;
+}
+
+.hero-section {
+    background: url('african-american.png') center center/cover no-repeat;
+    position: relative;
+    padding: 200px 50px;
+    text-align: center;
+    color: #fff;
+  }
+
+  .hero-section:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .hero-content {
+    position: relative;
+    z-index: 1;
+  }
+
+  #about {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  #feature {
+    margin-top: 30px;
+  }
+
+  .carousel-item img {
+    height: 400px; /* Adjust the height as desired */
+    object-fit: cover;
+  }
